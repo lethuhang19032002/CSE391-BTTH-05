@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body class="position-relative">
+
+    <div class="container" >
+        <h1 class="bg-secondary text-center">
+            Todo
+        </h1>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="course-name">
+                    Learn HTML,CSS
+                </div>
+                <button class="btn text-bg-danger del-btn">Delete</button>
+            </li>
+            <li class="list-group-item">
+                <div class="course-name">
+                    Learn JavaScript
+                </div>
+                <button class="btn text-bg-danger del-btn">Delete</button>
+            </li>
+            <li class="list-group-item">
+                <div class="course-name">
+                    Learn ReactJs
+                </div>
+                <button class="btn text-bg-danger del-btn">Delete</button>
+            </li>
+        </ul>
+        <div class="confirm-dialog position-fixed border rounded">
+            <p class="confirm-question m-0 text-center mb-3">Are you sure?</p>
+            <div class="confirm-control d-flex justify-content-between">
+                <button class="btn btn-cancel border text-danger border-danger">Cancel</button>
+                <button class="btn btn-confirm text-bg-danger">Confirm</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="layout position-absolute">
+            
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
